@@ -1,0 +1,29 @@
+#bloomberg_ticker {
+
+  &.loading {
+    background: url('../img/loading.gif') center center no-repeat;
+    height: 32px;
+    width: 100%;
+
+    .content {
+      display: none;
+    }
+  }
+
+  .ticker_table {
+
+    tbody tr:hover {
+      background: #fbfbfb;
+    }
+
+    .genericon {
+      color: #dddddd;
+      cursor: pointer;
+
+      &.active {
+        color: #000000;
+      }
+    }
+  }
+
+}
